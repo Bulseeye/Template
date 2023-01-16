@@ -1,0 +1,10 @@
+/* prevents padding bigger then the site is. */
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* vh means viewportheight so this will fill the whole page */
+    min-height: 100vh;
+}
